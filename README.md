@@ -1,9 +1,20 @@
-This is the *Cinema Room REST Service with Java* project I made myself.
+Description:
+The Ticketing and Statistics REST Service is a comprehensive backend system designed for managing a movie theatre's ticketing operations. Developed using Java and the Spring Boot framework, this project includes functionalities such as seat availability, ticket purchasing, refund processing, and detailed statistics retrieval. The service exposes a set of RESTful endpoints that enable seamless interaction with the cinema's ticketing system.
 
+Key Features:
 
-<div><div class="alert alert-primary">You will practice concepts frequently tested in technical interviews at top tech companies.</div>
-<p>Always wanted to have your private movie theater and screen only the movies you like? You can buy a fancy projector and set it up in a garage, but how can you sell tickets? The idea of a ticket booth is old-fashioned, so let's create a special service for that! Make good use of Spring and write a REST service that can show the available seats, sell and refund tickets, and display the statistics of your venue. Pass me the popcorn, please!</p></div><br/><br/>Learn more at <a href="https://hyperskill.org/projects/189?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/189</a>
+Seat Booking: Users can view the available seats, choose their preferred ones, and purchase tickets.
+Refund Processing: Implemented a mechanism for users to return purchased tickets, updating the seat availability accordingly.
+Statistics Endpoint: Introduced a /stats endpoint for theatre managers to retrieve essential statistics, including total income, available seats, and purchased tickets.
+Technologies Used:
 
-Here's the link to the project: https://hyperskill.org/projects/189
+Java
+Spring Boot
+RESTful API Design
+Object-Oriented Programming
+Error Handling and HTTP Status Codes
+How to Use:
 
-Check out my profile: https://hyperskill.org/profile/416971663
+Access seat availability using the /seats endpoint.
+Purchase tickets with the /purchase endpoint, providing the desired seat coordinates.
+Return tickets using the /return endpoint, specifying the ticket token.
