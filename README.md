@@ -1,5 +1,5 @@
 Description:
-The Ticketing and Statistics REST Service is a comprehensive backend system designed for managing a movie theatre's ticketing operations. Developed using Java and the Spring Boot framework, this project includes functionalities such as seat availability, ticket purchasing, refund processing, and detailed statistics retrieval. The service exposes a set of RESTful endpoints that enable seamless interaction with the cinema's ticketing system.
+The Cinema Room REST Service is a comprehensive backend system designed for managing a movie theatre's ticketing operations. Developed using Java and the Spring Boot framework, this project includes functionalities such as seat availability, ticket purchasing, refund processing, and detailed statistics retrieval. The service exposes a set of RESTful endpoints that enable seamless interaction with the cinema's ticketing system.
 
 Key Features:
 Seat Booking: Users can view the available seats, choose their preferred ones, and purchase tickets.
